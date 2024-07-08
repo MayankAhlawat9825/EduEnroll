@@ -290,11 +290,11 @@ Label(root,text="STUDENT REGISTRATION ",width=10,height=2,bg="#c36464",fg="#fff"
 #search box to update
 Search=StringVar()
 Entry (root, textvariable=Search, width=15, bd=2, font="arial 20").place(x=820, y=70)
-imageicon3=PhotoImage (file=r"D:\First year\Code\Project\University-Project\REGISTRATIONSYSTEM\Images\search.png")
+imageicon3=PhotoImage (file=r"D:\First year\Code\Project\University-Project\Delscrap\Images\search.png")
 Srch=Button (root, text="Search", compound=LEFT, image=imageicon3,width=123, bg='#68ddfa', font="arial 13 bold",command=search)
 Srch.place(x=1060, y=66)
 
-imageicon4=PhotoImage(file=r"D:\First year\Code\Project\University-Project\REGISTRATIONSYSTEM\Images\Layer 4.png")
+imageicon4=PhotoImage(file=r"D:\First year\Code\Project\University-Project\Delscrap\Images\Layer 4.png")
 Update_button=Button (root, image=imageicon4, bg="#c36464",command=Update)
 Update_button.place(x=110, y=64)
 
@@ -385,7 +385,7 @@ MO_entry.place(x=630, y=100)
 f=Frame (root, bd=3, bg="black",width=200,height=200, relief=GROOVE)
 f.place(x=1000, y=150)
 
-img=PhotoImage (file=r"D:\First year\Code\Project\University-Project\REGISTRATIONSYSTEM\Images\upload photo.png")
+img=PhotoImage (file=r"D:\First year\Code\Project\University-Project\Delscrap\Images\upload photo.png")
 lbl=Label(f, bg="black", image=img)
 lbl.place(x=0, y=0)
 
